@@ -2,7 +2,7 @@
 
 Welcome to my **TensorFlow AI Journey**, documenting my learning and hands-on experiments with TensorFlow and deep learning.
 
----
+
 
 ## 🧠 Technologies Used
 
@@ -10,7 +10,6 @@ Welcome to my **TensorFlow AI Journey**, documenting my learning and hands-on ex
 - TensorFlow / Keras  
 - Google Colab / Jupyter Notebooks  
 
----
 
 ## 📁 Intro to TensorFlow – Project Summaries
 
@@ -27,6 +26,5 @@ Welcome to my **TensorFlow AI Journey**, documenting my learning and hands-on ex
 6. **`Exploring Convolution`** – Experiments with various convolutional configurations to study their impact on model accuracy.
 
 7. **`Convolution using real images`**
----
 
 📌 *Keep learning*
