@@ -58,6 +58,30 @@ Further exploration of **convolutional layers**.
 
 ---
 
+    - The input should be a tf.keras.Input with a shape that matches 
+    that of every image in the training set (including the color dimension)
+    
+    - A good layer (after the Input) would be a Conv2D layer
+    
+    - The model will work best with 3 convolutional layers
+    
+    - There should be a Flatten layer in between convolutional and dense layers
+    
+    - The final layer should be a Dense layer with the number of units and 
+    activation function that supports binary classification.
+
+    - Adam is a good optimizer in this case.
+
+    - About loss functions:
+
+        - SparseCategoricalCrossentropy will require label_mode to be 'int' or 'binary' 
+        and the last layer should have two units with a 'softmax' activation function.
+
+        - BinaryCrossentropy will require label_mode to be 'int' or 'binary' 
+        and the last layer should have only one unit with an activation function such as 'sigmoid'.
+
+        - CategoricalCrossentropy will require label_mode to be 'categorical'
+        and the last layer should have two units with a 'softmax' activation function.
 
 ## 🧠 Technologies Used
 
